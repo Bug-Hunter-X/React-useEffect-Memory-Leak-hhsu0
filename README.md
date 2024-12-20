@@ -1,0 +1,1 @@
+This repository demonstrates a common React bug: a memory leak caused by an improperly handled setInterval within a useEffect hook.  The initial code creates an interval but doesn't properly clear it when the component unmounts, leading to a memory leak. The solution demonstrates how to correctly clear the interval using the cleanup function provided by useEffect.
